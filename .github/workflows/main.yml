@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    
+    env:
+      POLARIS_SERVER_URL: "https://demo.polaris.synopsys.com"
+      POLARIS_ACCESS_TOKEN: "ofjmciofq57ct39nsj8375ooiks1cf0jorkocc8k2t384aph73o0"
+      
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+          
+      - name: Polaris
+        run: |
+          curl -fLOsS $POLARIS_SERVER_URL/api/tools/polaris_cli-linux64.zip
+          unzip -d /tmp -jo polaris_cli-linux64.zip
+          /tmp/polaris analyze -w
+          
+      - name: Black Duck
+        run: |
+          bash <(curl -s -L https://detect.synopsys.com/detect7.sh) --blackduck.url=https://poc18.blackduck.synopsys.com --blackduck.api.token=NTBiNDFlMmMtOWM0ZS00NTMyLThiZjMtMzc2ZTlhYWZiYzIzOjQyMGNjZDhjLTgzMTgtNGJhNi05YmY3LTA0NDg2MzIzNGQzNw== --detect.project.name=WebGoatDemo --detect.project.version.name=8.1
+        
+   

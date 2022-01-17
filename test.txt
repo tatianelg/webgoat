@@ -1,0 +1,46 @@
+ O volume na unidade C ‚ Acer
+ O N£mero de S‚rie do Volume ‚ 7614-0596
+
+ Pasta de C:\Users\Tatiane\webgoat
+
+17/01/2022  14:59    <DIR>          .
+17/01/2022  14:59    <DIR>          ..
+14/01/2022  15:04    <DIR>          .github
+14/01/2022  15:04             1.328 .gitignore
+14/01/2022  15:04    <DIR>          .mvn
+14/01/2022  16:50       496.834.562 .polaris-coverity.zip
+14/01/2022  15:43               394 .project
+14/01/2022  15:43    <DIR>          .settings
+14/01/2022  16:24    <DIR>          .synopsys
+14/01/2022  15:04             2.181 .travis.yml
+14/01/2022  15:04               180 buildspec.yml
+14/01/2022  15:04    <DIR>          config
+14/01/2022  15:04             1.021 COPYRIGHT.txt
+14/01/2022  15:04             1.076 CREATE_RELEASE.MD
+14/01/2022  16:48    <DIR>          docker
+14/01/2022  15:04               279 docker-compose-local.yml
+14/01/2022  15:04             1.410 docker-compose-postgres.yml
+14/01/2022  15:04               525 docker-compose.yml
+14/01/2022  15:04    <DIR>          docs
+14/01/2022  15:04             1.068 goat-with-reverseproxy.yaml
+14/01/2022  15:04             1.014 LICENSE.txt
+14/01/2022  15:04               130 mvn-debug
+14/01/2022  15:04            10.388 mvnw
+14/01/2022  15:04             6.791 mvnw.cmd
+14/01/2022  15:04    <DIR>          platformQuickStarts
+14/01/2022  15:04           111.239 pmd-ruleset.xml
+14/01/2022  15:50             1.230 polaris.yml
+14/01/2022  15:04            10.419 pom.xml
+14/01/2022  15:04             1.499 project-suppression.xml
+14/01/2022  15:04             5.359 README.MD
+14/01/2022  15:04             2.400 RELEASE_NOTES.md
+14/01/2022  15:04    <DIR>          scripts
+17/01/2022  14:59                 0 test.txt
+14/01/2022  16:35    <DIR>          webgoat-container
+14/01/2022  15:04    <DIR>          webgoat-images
+14/01/2022  16:47    <DIR>          webgoat-integration-tests
+14/01/2022  15:43    <DIR>          webgoat-lessons
+14/01/2022  16:46    <DIR>          webgoat-server
+14/01/2022  16:47    <DIR>          webwolf
+              22 arquivo(s)    496.994.493 bytes
+              17 pasta(s)   442.822.709.248 bytes dispon¡veis
